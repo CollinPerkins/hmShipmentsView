@@ -1,0 +1,20 @@
+.right {
+  text-align: right;
+}
+.quoteSize {
+  font-size: 30px;
+}
+
+.quoteConainer {
+  margin: 0 auto;
+  /*background-color: blue;*/
+}
+.top-section {
+  margin-top: 40px;
+}
+.griddle-container {
+  margin-top: 20px;
+}
+.centerText {
+  text-align: center;
+}
