@@ -25,7 +25,7 @@ export default class App extends Component {
     return (
       <div className="quoteConainer">
         <Shipment />
-        <Griddle  results={this.state.shipments} resultsPerPage={50} tableClassName="table" showFilter={true} columns={['orderNumber', 'sku', 'serial', 'qty', 'date', 'tracking']} showSettings={true}/>
+        <Griddle  results={this.state.shipments} resultsPerPage={50} tableClassName="table" showFilter={true} columns={['orderNumber', 'sku', 'serial', 'qty', 'date', 'tracking', 'service']} showSettings={true}/>
       </div>
     );
   }
